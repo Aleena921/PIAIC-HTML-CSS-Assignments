@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
  <head>
   <title>Ch_2</title>
  </head>
@@ -8,7 +8,7 @@
   <body>
    <h1>Bold Strong</h1>
    <p><b>'b' tag</b> is used to create a <b>'b'</b> element, which represents <b>bold</b> text in an HTML document</p>
-   <p><strong>'strong'</strong> tag is used to create a <strong>'strong'<strong> element, which represents <strong>strong</strong> text in an HTML document</p>
+   <p><strong>'strong'</strong> tag is used to create a <strong>'strong'</strong> element, which represents <strong>strong</strong> text in an HTML document</p>
    <hr />
    <h1>Italic and Emphasise</h1>
    <p><i>'i'</i> tag is used to create a <i>'i'</i> element, which represents <i>italic</i> text in an HTML document</p>
@@ -40,9 +40,9 @@
    <p>The amount of CO<sub>2</sub> in the atmosphere grew by 2pm in 2009<sub>1</sub>
    <hr />
    <h1>Address</h1>
-   <adress>
+   <address>
    <p><a href="mailto:education@piaic.org">education@piaic.org</a></p>
    <p>Plot 245/2 M, Block 6 PECHS, Karachi, Sindh 75100, Pakistan</p>
-   </adress>
+   </address>
    </body>
 </html>
