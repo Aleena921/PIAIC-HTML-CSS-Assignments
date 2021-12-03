@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+
+<html lang="en">
+ <head>
+  <title>Ch_10</title>
+  <style>
+      .steelblue{background-color: slateblue;}
+      .fuchsia{background-color: fuchsia;}
+      .darkviolet{background-color: darkviolet;}
+      .lightpink{background-color: hsl(359, 100%, 85%)}
+      .gold{background-color: gold;}
+      .goldenrod{background-color: goldenrod;}
+      .hsl{background-color: hsl(3, 100%, 72%)}
+      .saddlebrown{background-color: sienna;}
+      .forestgreen{background-color: rgb(0, 113, 59);}
+  </style>
+ </head>
+ 
+  <body>
+  <h1><center>The periodic Table<center></h1>
+  <table width="400" border="3" bordercolor="black" cellpadding="8" cellspacing="3">
+   <tr>
+    <td style="background-color: tomato;"><sup>1</sup>H</</td>
+    <td colspan="16"></td>
+    <td class="steelblue"><sup>2</sup>He</td>
+   </tr>
+   <tr>
+    <td class="fuchsia"><sup>3</sup>Li</td>
+    <td class="darkviolet"><sup>4</sup>Be</td>
+    <td colspan="10"></td>
+    <td class="saddlebrown"><sup>5</sup>B</td>
+    <td class="hsl"><sup>6</sup>C</td>
+    <td class="hsl"><sup>7</sup>N</td>
+    <td class="hsl"><sup>8</sup>O</td>
+    <td class="goldenrod"><sup>9</sup>F</td>
+    <td class="steelblue"><sup>10</sup>Ne</td>
+   </tr>
+   <tr>
+    <td class="fuchsia"><sup>11</sup>Na</td>
+    <td class="darkviolet"><sup>12</sup>Mg</td>
+    <td colspan="10"></td>
+    <td class="forestgreen"><sup>13</sup>Al</td>
+    <td class="saddlebrown"><sup>14</sup>Si</td>
+    <td class="hsl"><sup>15</sup>P</td>
+    <td class="hsl"><sup>16</sup>S</td>
+    <td class="goldenrod"><sup>17</sup>Cl</td>
+    <td class="steelblue"><sup>18</sup>Ar</td>
+   </tr>
+   <tr>
+    <td class="fuchsia"><sup>19</sup>K</td>
+    <td class="darkviolet"><sup>20</sup>Ca</td>
+    <td class="gold"><sup>21</sup>Sc</td>
+    <td class="gold"><sup>22</sup>Ti</td>
+    <td class="gold"><sup>23</sup>V</td>
+    <td class="gold"><sup>24</sup>Cr</td>
+    <td class="gold"><sup>25</sup>Mn</td>
+    <td class="gold"><sup>26</sup>Fe</td>
+    <td class="gold"><sup>27</sup>Co</td>
+    <td class="gold"><sup>28</sup>Ni</td>
+    <td class="gold"><sup>29</sup>Cu</td>
+    <td class="gold"><sup>30</sup>Zn</td>
+    <td class="forestgreen"><sup>31</sup>Ga</td>
+    <td class="saddlebrown"><sup>32</sup>Ge</td>
+    <td class="saddlebrown"><sup>33</sup>As</td>
+    <td class="hsl"><sup>34</sup>Se</td>
+    <td class="goldenrod"><sup>35</sup>Br</td>
+    <td class="steelblue"><sup>36</sup>Kr</td>
+   </tr>
+   <tr>
+    <td class="fuchsia"><sup>37</sup>Rb</td>
+    <td class="darkviolet"><sup>38</sup>Sr</td>
+    <td class="gold"><sup>39</sup>Y</td>
+    <td class="gold"><sup>40</sup>Zr</td>
+    <td class="gold"><sup>41</sup>Nb</td>
+    <td class="gold"><sup>42</sup>Mo</td>
+    <td class="gold"><sup>43</sup>Tc</td>
+    <td class="gold"><sup>44</sup>Ru</td>
+    <td class="gold"><sup>45</sup>Rh</td>
+    <td class="gold"><sup>46</sup>Pd</td>
+    <td class="gold"><sup>47</sup>Ag</td>
+    <td class="gold"><sup>48</sup>Cd</td>
+    <td class="forestgreen"><sup>49</sup>In</td>
+    <td class="forestgreen"><sup>50</sup>Sn</td>
+    <td class="saddlebrown"><sup>51</sup>Sb</td>
+    <td class="saddlebrown"><sup>52</sup>Te</td>
+    <td class="goldenrod"><sup>53</sup>I</td>
+    <td class="steelblue"><sup>54</sup>Xe</td>
+   </tr>
+   <tr>
+    <td class="fuchsia"><sup>55</sup>Rb</td>
+    <td class="darkviolet"><sup>56</sup>Sr</td>
+    <td class="lightpink">57-71</td>
+    <td class="gold"><sup>72</sup>Hf</td>
+    <td class="gold"><sup>73</sup>Ta</td>
+    <td class="gold"><sup>74</sup>W</td>
+    <td class="gold"><sup>75</sup>Re</td>
+    <td class="gold"><sup>76</sup>Os</td>
+    <td class="gold"><sup>77</sup>Ir</td>
+    <td class="gold"><sup>78</sup>Pt</td>
+    <td class="gold"><sup>79</sup>Au</td>
+    <td class="gold"><sup>80</sup>Hg</td>
+    <td class="forestgreen"><sup>81</sup>Tl</td>
+    <td class="forestgreen"><sup>82</sup>Pb</td>
+    <td class="forestgreen"><sup>83</sup>Bi</td>
+    <td class="saddlebrown"><sup>84</sup>Po</td>
+    <td class="goldenrod"><sup>85</sup>At</td>
+    <td class="steelblue"><sup>86</sup>Rn</td>
+   </tr>
+   <tr>
+    <td class="fuchsia"><sup>87</sup>Fr</td>
+    <td class="darkviolet"><sup>88</sup>Ra</td>
+    <td class="lightpink">89-103</td>
+    <td class="gold"><sup>104</sup>Rf</td>
+    <td class="gold"><sup>105</sup>Db</td>
+    <td class="gold"><sup>106</sup>Sg</td>
+    <td class="gold"><sup>107</sup>Bh</td>
+    <td class="gold"><sup>108</sup>Hs</td>
+    <td class="gold"><sup>109</sup>Mt</td>
+    <td class="gold"><sup>110</sup>Ds</td>
+    <td class="gold"><sup>111</sup>Rg</td>
+    <td class="gold"><sup>112</sup>Cn</td>
+    <td><sup>113</sup>Nh</td>
+    <td><sup>114</sup>Fl</td>
+    <td><sup>115</sup>Mc</td>
+    <td><sup>116</sup>Lv</td>
+    <td><sup>117</sup>Ts</td>
+    <td><sup>118</sup>Og</td>
+   </tr>
+   <table width="400" border="2" cellpadding="8" cellspacing="3">
+   <tr>
+    <td rowspan="0.1"></td>
+    <td rowspan="0.1"></td>
+    <td class="lightpink"><sup>57</sup>La</td>
+    <td class="lightpink"><sup>58</sup>Ce</td>
+    <td class="lightpink"><sup>59</sup>Pr</td>
+    <td class="lightpink"><sup>60</sup>Nd</td>
+    <td class="lightpink"><sup>61</sup>Pm</td>
+    <td class="lightpink"><sup>62</sup>Sm</td>
+    <td class="lightpink"><sup>63</sup>Eu</td>
+    <td class="lightpink"><sup>64</sup>Gd</td>
+    <td class="lightpink"><sup>65</sup>Tb</td>
+    <td class="lightpink"><sup>66</sup>Dy</td>
+    <td class="lightpink"><sup>67</sup>Ho</td>
+    <td class="lightpink"><sup>68</sup>Er</td>
+    <td class="lightpink"><sup>69</sup>Tm</td>
+    <td class="lightpink"><sup>70</sup>Yb</td>
+    <td class="lightpink"><sup>71</sup>Lu</td>
+    <td rowspan="0.1"></td>
+   </tr>
+   <tr>
+    <td class="lightpink"><sup>89</sup>Ac</td>
+    <td class="lightpink"><sup>90</sup>Th</td>
+    <td class="lightpink"><sup>91</sup>Pa</td>
+    <td class="lightpink"><sup>92</sup>U</td>
+    <td class="lightpink"><sup>93</sup>Np</td>
+    <td class="lightpink"><sup>94</sup>Pu</td>
+    <td class="lightpink"><sup>95</sup>Am</td>
+    <td class="lightpink"><sup>96</sup>Cm</td>
+    <td class="lightpink"><sup>97</sup>Bk</td>
+    <td class="lightpink"><sup>98</sup>Cf</td>
+    <td class="lightpink"><sup>99</sup>Es</td>
+    <td class="lightpink"><sup>100</sup>Fm</td>
+    <td class="lightpink"><sup>101</sup>Md</td>
+    <td class="lightpink"><sup>102</sup>No</td>
+    <td class="lightpink"><sup>103</sup>Lr</td>
+   </tr>
+   </table>
+  </body>
+</html>
