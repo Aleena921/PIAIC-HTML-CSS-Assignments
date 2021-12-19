@@ -1,1 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards</title>
+    <style>
+      *{
+        padding: 0px;
+        margin: 0px;
+      }
+      body{
+        font-family: sans-serif;
+      }
+      .cards{width: 20%;
+             border-radius: 5px;
+             margin: 40px;
+             box-shadow: 2px 2px 10px black;
+             display: inline-table;
 
+             
+               
+      }
+      .image img{
+        width: 100%;
+        border-top-right-radius: 5px;
+        border-top-right-radius: 5px;
+      }
+      .title{
+        padding: 5px;
+        margin: 15px;
+      }
+      .description{
+        padding: 5px;
+        margin: 15px;
+      }
+      button{margin-top: 30px;
+             margin-bottom: 30px;
+             background-color: white;
+             border: 1px solid black;
+             padding: 5px;
+             border-radius: 5px;
+             color: black;
+             cursor: pointer;
+
+      }
+      button:hover{background-color: black;
+        color: white;
+
+      }
+      
+    </style>
+    <!--padding area is the space between its content and its border. Note: Padding creates extra space within an element. In contrast, margin creates extra space around an element-->
+    <!--border radius in card class means that card egdes in curve shape-->
+    <!--box shadow in card class means 2px left 2px right 10px bluerr and color black-->
+
+        
+</head>
+<body>
+    <div class=cards>
+      <div class="image">
+        <img src="file:///home/shaheen/Pictures/WhatsApp%20Image%202021-12-18%20at%2010.34.23%20PM.jpeg">
+
+      </div>
+      <div class="title">
+        <h1>Monogram</h1>
+
+      </div>
+      <div class="description">
+        <p>Silsala Qadria Sarwaria Awaisia Sultania</p>
+        <button>READ MORE</button>
+
+      </div>
+
+    </div>
+    <!--Cards-->
+    <div class=cards>
+      <div class="image">
+        <img src="file:///home/shaheen/Pictures/WhatsApp%20Image%202021-12-20%20at%201.00.48%20AM.jpeg">
+
+      </div>
+      <div class="title">
+        <h2>Contemplation of ISM E ALLAH ZAAT pak</h2>
+
+      </div>
+      <div class="description">
+        <p>Silsala Qadria Sarwaria Awaisia Sultania</p>
+        <button>READ MORE</button>
+
+      </div>
+
+    </div>
+    <!--Cards-->
+    <div class=cards>
+      <div class="image">
+        <img src="file:///tmp/mozilla_shaheen0/WhatsApp%20Image%202021-12-20%20at%201.00.04%20AM.jpeg">
+
+      </div>
+      <div class="title">
+        <h2>Contemplation of ISM E MUHAMMAD S.A.W</h2>
+
+      </div>
+      <div class="description">
+        <p>Silsala Qadria Sarwaria Awaisia Sultania</p>
+        <button>READ MORE</button>
+
+      </div>
+
+    </div>
+      
+</body>
+</html>
